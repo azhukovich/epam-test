@@ -60,7 +60,7 @@
     </dependencies>
 
     <build>
-        <outputDirectory>class</outputDirectory>
+        <outputDirectory>target/class</outputDirectory>
         <finalName>epam-test</finalName>
 
         <plugins>
