@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteFF" thread-count="1">
+    <parameter name="browserType" value="FF" />
+    <parameter name="user1" value="epam.test.001" />
+    <parameter name="user2" value="epam.test.002" />
+    <parameter name="user3" value="epam.test.003" />
+    <parameter name="pass" value="ep@m.t3st.p@ssw0rd"/>
+
+    <test name="FFTest">
+         <classes>
+            <class name="tests.TestStart" />
+        </classes>
+    </test>
+</suite>

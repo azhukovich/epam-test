@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteCH" thread-count="1">
+   <parameter name="browserType" value="CH" />
+   <parameter name="user1" value="epam.t01" />
+   <parameter name="user2" value="epam.t02" />
+   <parameter name="user3" value="epam.t03" />
+   <parameter name="pass" value="t3st.p@ssw0rd"/>
+
+    <test name="CHTest">
+        <parameter name="browserType" value="CH" />
+        <classes>
+            <class name="tests.TestStart" />
+        </classes>
+    </test>
+
+</suite>
